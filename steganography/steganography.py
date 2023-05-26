@@ -91,12 +91,13 @@ def retrieveMessage(image_path):
 
 
 print("Welcome to Image Steganography!")
+print('\n')
 # the path to the image you want to hide the message in
 image_path = 'steganography/image.jpg'
 
 # get the message from the user
 message = input("Enter the message you want to hide: ")
-
+print('\n')
 # hide the message in the image
 print("Hiding message...")
 hideMessage(image_path, message)
@@ -104,13 +105,13 @@ print("Message hidden successfully!")
 
 # the path to the modified image that contains the hidden message
 modified_image_path = 'steganography/image_hidden.png'
-
+print('\n')
 print(f"Encoded Image with secret message is created at {modified_image_path}")
-
+print('\n')
 # retrieve the hidden message from the image
 print("Retrieving message...")
 retrieved_message = retrieveMessage(modified_image_path)
 print("Message retrieved successfully!")
-
+print('\n')
 # print the hidden message
 print("The hidden message is:", retrieved_message)
