@@ -18,15 +18,15 @@ def dehash(hash, dict_file):
     return None
 
 print("welcome to De-Hasher")
-
+print('\n')
 target_hash = input("Please enter your hash Value: ")
 # '0ab613316a8825c9e9d8530fdc6898c76c2fc577'
 dict_file = 'seltool/dict.txt'
 
 password = dehash(target_hash, dict_file)
 
-
+print('\n')
 if password:
     print(f"Password found: {password}")
 else:
-    print("Password not found in dictionary")
+    print("Password not found in dictionary!!")
