@@ -16,8 +16,8 @@ PIL (Python Imaging Library): A library for image processing that enables image 
 os: A module providing a way to interact with the operating system, used for file handling.
 hashlib: A module providing various hashing algorithms, used for hashing and dehashing passwords.
 
-#Program Descriptions
-#1. Website Vulnerability Scanner
+**#Program Descriptions**
+**#1. Website Vulnerability Scanner**
 The Website Vulnerability Scanner aims to identify vulnerabilities in a given website. It performs two types of checks: Cross-Site Scripting (XSS) and SQL injection. Here's how it works:
 
 The user provides the target website URL.
@@ -27,7 +27,7 @@ For XSS vulnerabilities, the scanner injects a malicious JavaScript code into ea
 For SQL injection vulnerabilities, the scanner injects a SQL command into each input field and checks if an error message is returned.
 The vulnerabilities detected are displayed to the user, specifying the vulnerability type and the vulnerable input field(s).
 
-#2. Image Steganography
+**#2. Image Steganography**
 The Image Steganography program allows users to hide a secret message within an image. The hidden message can later be retrieved from the modified image. Here's a brief overview of its functionality:
 
 The user provides the path to the image where the message will be hidden.
@@ -37,7 +37,7 @@ Each pixel in the image is processed, and the least significant bit of the RGB c
 The modified image with the hidden message is saved as a new image.
 The user can later retrieve the hidden message from the modified image using the same program.
 
-#3. Dictionary Attack
+**#3. Dictionary Attack**
 The Dictionary Attack program helps in cracking hashed passwords by comparing them to a dictionary of commonly used words. Here's how it operates:
 
 The user provides a target hash value and the path to a dictionary file.
@@ -47,7 +47,7 @@ The hashed word is compared to the target hash value.
 If a match is found, the password is returned.
 If no match is found, the program notifies the user that the password was not found in the dictionary.
 
-#Documentation
+**#Documentation**
 For detailed documentation and instructions on how to use each program in the Cybersecurity Toolkit, please refer to the respective files:
 
 webvulnscanner/WebVulnScanner.py for the Website Vulnerability Scanner.
