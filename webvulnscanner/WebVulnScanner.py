@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm
 
 print("Welcome to Website Vulnerability Scanner")
+print('\n')
 # Define the target URL "http://testphp.vulnweb.com/
 # https://manytools.org/hacker-tools/ascii-banner/
 target_url = input("Enter your URL: ")
